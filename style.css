@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.Header{
+    background-color: orangered;
+    position: sticky; 
+    top: 0;
+}
+
+.Top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-bar{
+    margin-left: 5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    color: white;
+}
+.right-bar{
+    display: flex;
+    margin-right: 14%;
+    margin-top: 0.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.right-bar p{
+    margin-right: 25%;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.Title{ 
+    background-color: orangered;
+   font-size: x-large;
+   text-align: center;
+   color: white;
+   padding: 5%;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Title p{
+    font-size: small;
+}
+
+.Info1{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box{
+    margin-right: 5%;
+}
+
+.box button{
+    background-color: orangered;
+    border-color: orangered;
+    width: fit-content;
+    color: white;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 3%;
+}
+
+.box h2{
+    color: orangered;
+    margin-bottom: 4%;
+}
+
+.Info2{
+    background-color: orangered;
+}
+
+.People{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+
+.Info-Box{
+    display: flex;
+    justify-content: center;
+    height: 30vh;  
+}
+
+.face{
+    margin-right: 3%;
+    margin-bottom: ;
+    border: 1px solid white;
+    text-align: center;
+    min-width: 17%;
+    height: 26vh; 
+}
+
+.face img{
+    border-radius: 50%;
+    max-width: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.lower-logo{
+    background-color: white;
+    margin: 5vw;
+    position: absolute;
+    left: 20%;
+}
+
+.Info3-Title{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.Info3-Img{
+    display: flex;
+    margin-left: 18%;
+    margin-right: 20%;  
+}
+
+.Scene{
+    margin: 7%;  
+}
+.Scene img{
+    width: 110%;
+    height: 50%;   
+}
+
+.Scene h3{
+    color: orangered;
+    margin-bottom: 3%;
+}
+
+.Scene p{
+    margin-bottom: 3%;
+}
+
+.Scene button{
+    background-color: orangered;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-color: orangered;
+}
+
+.arrow{
+    position: sticky;
+    bottom: 0;
+    text-align: right;
+    margin-right: 5%;
+    font-size: xx-large; 
+}
+
